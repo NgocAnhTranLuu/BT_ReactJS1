@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.Header{
+  border-bottom: 1.85px solid rgba(255, 255, 255, 0.4);
+
+  padding: 10px 0 5px;
+  transition: all 1s;
+}
+/* .Header .navbar-expand {
+  justify-content: center;
+} */
+
+.Header .navbar-brand img{
+  height: 70px;
+}
+
+.Header .navbar-nav{
+  padding: 0 10px;
+}
+.Header .navbar-nav a{
+  color: black;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.Header .navbar-nav a:hover{
+  color: #d5001c;
+}
+
+
+
+/* ----------------------- */
+.Header .navbar-nav .active{
+  color: #d5001c;
+}
+
+.Body{
+  background-color: rgb(23, 23, 23);
+}
+
+.Item{
+  padding: 100px 20px 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.card{
+  background-color: rgb(60, 60, 60);
+  color: white;
+  transition: all 1s;
+}
+.card:hover{
+  background-color: #860012;
+  color: white;
+}
+
+.card img{
+
+}
+.card h5{
+  color: black;
+  font-size: 1.8rem;
+}
+.card a{
+  background-color: #d5001c;
+  color: white;
+  border: none;
+  transition: all 1s;
+}
+.card a:hover{
+  background-color: white;
+  color: #d5001c;
+}
+
+
+.Footer{
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Footer span{
+  color: #d5001c;
+  padding-left: 7px;
+}
